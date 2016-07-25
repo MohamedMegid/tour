@@ -1,0 +1,171 @@
+@media screen and (min-width: 992px) {
+.left-side { right: 0;}
+.right-side.strech {
+    margin-left: auto;
+    margin-right: 0;
+}
+}
+.right-side {
+    margin-right: 250px;
+    margin-left: auto;
+}
+body > .header .navbar {
+    margin-right: 250px;
+    margin-left: auto;
+}
+body > .header .logo {
+	float: right;
+	direction: rtl;
+	font-weight: 800;
+	font-size: 20px;
+	color: #ccc;
+	text-align: right;
+}
+.login .col-md-5 {float: left;}
+body > .header .navbar .sidebar-toggle {
+    float: right;
+}
+
+
+
+.page-sidebar-menu .livicon {
+    float: right;
+    margin-top: -2px;
+    margin-left: 10px;
+    margin-right: auto;
+}
+.skin-josh .sidebar a {
+    text-align: right;
+}
+.arrow {
+    float: left;
+    }
+
+.back-to-top {
+   right: auto;
+    left: 30px;
+}
+.sidebar li .sub-menu li i {
+    padding-left: 10px;
+    padding-right: 0;
+}
+.content,.right-side {
+	direction: rtl;
+}
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:first-child > .btn-group:not(:first-child) > .btn, .input-group-btn:first-child > .btn:not(:first-child), .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group > .btn, .input-group-btn:last-child > .dropdown-toggle {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.form-control {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.right-side > .content-header > .breadcrumb {
+    left: 10px;
+	right: auto;
+	top: 7px;
+}
+.right-side > .content-header > h1 {
+    float: right;
+}
+.operations a {
+    margin: 0 5px;
+}
+.close {
+    float: left;
+}
+.pagination {
+margin: 0;
+}
+.form-inline .form-group {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.form-inline {
+    padding: 10px 0;
+}
+.page-sidebar .page-sidebar-menu li > a > .badge {
+	float: left;
+	margin-left: 10px;
+	margin-right: auto;
+}
+.navbar-right {
+    float: left !important;
+}
+.skin-josh .navbar .navbar-right > .nav {
+    margin-left: 10px;
+    margin-right: auto;
+}
+.navbar-nav > li {
+    float: right;
+}
+.navbar-right .dropdown-menu {
+    left: 0px;
+    right: auto;
+}
+.panel-body, .panel-heading {
+    direction: rtl;
+}
+.input-group-addon:first-child {
+    border-right: 1px solid #CCC;
+    border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+    border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"], .radio input[type="radio"], .radio-inline input[type="radio"] {
+    position: absolute;
+    margin-right: -20px;
+}
+.checkbox label, .radio label {
+    min-height: 20px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    cursor: pointer;
+    padding-right: 20px;
+}
+@media (min-width: 992px){
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+  float: right;
+}}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {vertical-align: middle;}
+.halls-operations {text-align: right;}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+    float: right;
+}
+.pull-right {
+    float: left !important;
+}
+
+.filter .form-group {
+    float: right;
+    padding-left: 20px;
+    padding-right: 0;
+}
+.filter .btn {
+    float: right;
+}
+.modal-footer {
+    text-align: left;
+}
+.table .pull-left {
+    float: right !important;
+}
+/*choosen rtl*/
+.chosen-container-single .chosen-single {
+    padding: 0 8px 0 0 !important;
+}
+.chosen-container-single .chosen-single span {
+    margin-left: 26px !important;
+    margin-right: 0 !important;
+}
+.chosen-container-single .chosen-single div {
+    top: 3px !important;
+    left: 4px !important;
+    right: auto !important;
+}

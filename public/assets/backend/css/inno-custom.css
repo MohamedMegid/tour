@@ -1,0 +1,130 @@
+.sidbare{
+	background: #F7F7F7;
+	padding: 2px 10px 10px;
+}
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border: 1px solid #DDD;
+    text-align: center;
+    vertical-align: middle;
+}
+.form-inline .form-group {
+    margin-right: 20px;
+}
+.table .field-name {
+	width: 90%;
+	text-align: center;
+	line-height: 28px;
+}
+.table .sort {
+	width: 10%;
+	line-height: 0.5;
+    max-width: 15px;
+}
+.table .sort a, .table .sort a.fa {
+    line-height: 0.5;
+    color: #ccc;
+}
+.table .sort a.active, .table .sort a.active.fa {
+    color: #418BCA;
+}
+.table .sort a:hover, .table .sort a:hover .fa {
+    color: #1BC398;
+}
+.filter .form-group {
+    float: left;
+    padding-right: 20px;
+}
+.filter .chosen-container-single .chosen-single {
+    height: 34px;
+}
+.filter .chosen-container-single .chosen-single {
+    line-height: 34px;
+}
+.filter .btn {
+    margin-top: 24px;
+    float: left;
+}
+.bulk {
+    margin: 0px;
+}
+.bulk a {
+    margin-right: 10px;
+}
+.count {
+    float: left;
+    padding: 10px 0px;
+    font-weight: 800;
+}
+.pagination-area {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+.pagination {
+    padding: 0px;
+    margin: 0px;
+}
+.filter .date {
+        width: 204px;
+}
+@media (max-width: 767px) {
+    .filter .form-group {
+        width: 100%;
+        padding-right: 0;
+    }
+    .chosen-container {
+        min-width: 100%;
+    }
+    .filter .btn, .filter .date {
+        width: 100%;
+    }
+    .bulk a {
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .count {
+        margin-left: 10px;
+        float: none;
+    }
+    .pagination-area {
+        margin-left: 10px;
+        float: none;
+    }
+}
+.right-side > .content-header > .breadcrumb {
+    padding: 0px 5px;
+}
+.panel-filter > .panel-heading {
+    color: #fff;
+    background-color: #53668C;
+    border-color: #4A5D84;
+}
+/*gallery*/
+#gallery {
+    text-align: center;
+    background: #eee;
+    padding: 20px;
+}
+#gallery .gallery-img {
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+}
+
+#gallery img {
+    width: 130px;
+}
+#gallery a {
+    position: absolute;
+    right: 6px;
+    padding: 0 5px;
+    background: rgba(0, 0, 0, 0.58);
+    color: #fff;
+    top: 5px;
+}
+#group-ar input, #group-ar textarea {
+    direction: rtl;
+}
+#group-en input, #group-en textarea {
+    direction: ltr;
+}

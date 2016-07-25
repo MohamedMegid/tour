@@ -1,0 +1,9 @@
+.portlet > .portlet-title > .caption {
+  /*  float: right;*/
+}
+th {
+    text-align: center;
+}
+td {
+    text-align: center;
+}
